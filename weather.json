@@ -1,0 +1,120 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://i.imgur.com/8nLFCVP.png",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "label": "Action",
+        "uri": "https://linecorp.com"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "action": {
+        "type": "uri",
+        "label": "Action",
+        "uri": "https://linecorp.com"
+      },
+      "contents": [
+        {
+          "type": "text",
+          "text": "哭阿",
+          "weight": "bold",
+          "size": "xl",
+          "contents": []
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png"
+                },
+                {
+                  "type": "text",
+                  "text": "下雨",
+                  "weight": "bold",
+                  "margin": "sm",
+                  "contents": []
+                },
+                {
+                  "type": "text",
+                  "text": "100%",
+                  "size": "sm",
+                  "color": "#AAAAAA",
+                  "align": "end",
+                  "contents": []
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_large_32.png"
+                },
+                {
+                  "type": "text",
+                  "text": "溫度",
+                  "weight": "bold",
+                  "flex": 0,
+                  "margin": "sm",
+                  "contents": []
+                },
+                {
+                  "type": "text",
+                  "text": "35度",
+                  "size": "sm",
+                  "color": "#AAAAAA",
+                  "align": "end",
+                  "contents": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "資料來源:",
+          "size": "xxs",
+          "color": "#AAAAAA",
+          "wrap": true,
+          "contents": []
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "spacer",
+          "size": "xxl"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "點擊查詢",
+            "uri": "https://www.cwb.gov.tw/V8/C/"
+          },
+          "color": "#905C44",
+          "style": "primary"
+        }
+      ]
+    }
+  }
